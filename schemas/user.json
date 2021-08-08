@@ -1,0 +1,34 @@
+{
+	"definitions": {},
+	"type": "object",
+	"required": [
+		"username",
+		"password",
+		"email",
+		"name"
+	],
+	"properties": {
+		"username": { 
+			"title": "username", 
+			"type": "string"
+		},
+		"password": {
+			"title": "password", 
+			"type": "string"
+		},
+		"email": {
+			"title": "Email", 
+			"type": "string"
+		},
+		"name": {
+			"title": "name"
+		},
+		"dob": {
+			"title": "dob"
+		},
+		"rfToken": {
+			"title": "Create_date", 
+			"type": "string"
+		}
+	}
+}
