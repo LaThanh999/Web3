@@ -4,6 +4,7 @@ const customerModel=require('../models/customer.model');
 const validate= require("../middlewares/validate.mdw");
 const schema=require("../schemas/customer.json");
 
+
 router.get('/',async (req, res) => {
     const result = await customerModel.getAll();
     res.json(result);

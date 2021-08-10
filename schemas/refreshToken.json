@@ -1,0 +1,18 @@
+{
+	"definitions": {},
+	"type": "object",
+	"required": [
+		"accessToken",
+		"refreshToken"
+	],
+	"properties": {
+		"username": { 
+			"title": "accessToken", 
+			"type": "string"
+		},
+		"password": {
+			"title": "refreshToken", 
+			"type": "string"
+		}
+	}
+}
